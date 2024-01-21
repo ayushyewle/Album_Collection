@@ -19,15 +19,6 @@ useEffect(() =>{
   fetchData();
 },[]);
 
-
-// Method 2 to fetch the albums
-  // useEffect(() =>{
-  //   fetch('https://jsonplaceholder.typicode.com/albums')
-  //   .then((response) => response.json())
-  //   .then((data) => setAlbums(data))
-  // },[]);
-
-
 // DELETING AN ALBUM
 const deleteAlbum = (albumId) => {
   // showing the deletion on url
