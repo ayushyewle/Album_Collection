@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  box-shadow:  2px 0px 5px rgb(0, 0, 0);
+  background: radial-gradient(circle at 74.2% 50.9%, rgb(240, 142, 23) 5.2%, rgb(121, 162, 80) 75.3%);
+}
+.logo-link{
+  text-decoration: none;
+  color:rgb(85, 3, 3);
+  cursor: pointer;
+  font-size: 25px;
+}
